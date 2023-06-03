@@ -1,0 +1,28 @@
+/* CSS để căn giữa form */
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 700px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
